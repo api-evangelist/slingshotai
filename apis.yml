@@ -1,7 +1,27 @@
 aid: slingshotai
-name: Slingshotai
-description: Slingshotai is a company surfaced as a portfolio company of felicis and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/slingshotai.png
+name: Slingshot AI
+description: >-
+  Slingshot AI is a mental-health research lab building foundation models for
+  psychology. Its flagship product, Ash, is a free consumer application for
+  iOS and Android designed specifically for therapy, trained on a large
+  behavioral-health dataset using reinforcement-learning techniques. Founded by
+  Daniel Cahn and Neil Parikh and backed by Felicis, Forerunner Ventures,
+  Radical Ventures and Andreessen Horowitz, the company raised a $93M Series A
+  in 2025 after an 18-month beta with roughly 50,000 users. Slingshot AI is a
+  consumer product company and, as of this profile, publishes no public
+  developer API, SDKs, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/slingshotai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Mental Health
+- Healthcare
+- Machine Learning
+- Foundation Models
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/slingshotai-domain-security.yml
 - type: Website
   url: https://slingshotai.com
+- type: Careers
+  url: https://slingshotai.com/careers
+- type: Press
+  url: https://slingshotai.com/press
+- type: X-Product
+  url: https://www.talktoash.com
+- type: AppStore
+  url: https://apps.apple.com/us/app/ash-ai-for-mental-health/id6474862947
+- type: LinkedIn
+  url: https://www.linkedin.com/company/slingshotai
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/slingshot-ai
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
